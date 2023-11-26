@@ -1,0 +1,25 @@
+GET http://localhost:8080/api/flowers/list
+
+###
+GET http://localhost:8080/api/users/list
+###
+POST http://localhost:8080/api/flowers/add
+Content-Type: application/json
+
+{
+  "id": 2,
+  "sepalLength": 10,
+  "color": "WHITE",
+  "price": 100,
+  "flowerType": "TULIP"
+}
+###
+POST http://localhost:8080/api/users/add
+Content-Type: application/json
+
+{
+  "id": 9,
+  "email": "not_stehnii.pn@ucu.edu.ua",
+  "dob": "1999-01-01",
+  "age": 21    
+}
